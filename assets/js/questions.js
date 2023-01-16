@@ -7,6 +7,6 @@ let questions = [
     {
         question: "How old is Prince ", 
         choices:[34, 50, 60], 
-        correctAnswer: 60 
+        correctAnswer: 34
     },
 ]
