@@ -1,6 +1,6 @@
 
 
-let countDown=10;
+let countDown=5;
 let time=document.getElementById("time");
 let index=0;
 
@@ -15,7 +15,7 @@ function startTimer(){
         countDown--;
         time.textContent=countDown;
 
-        if (countDown <= 0) {
+        if (countDown = 0 || countDown<0) {
             clearInterval(timeInterval);
         }
     },1000)
